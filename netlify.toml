@@ -1,0 +1,33 @@
+# Netlify settings for QueensCoaching (no build step needed)
+[build]
+  publish = "."
+
+# Send queenscoaching.com (with or without www) to the main site, queenscoaching.ca
+[[redirects]]
+  from = "https://queenscoaching.com/*"
+  to = "https://queenscoaching.ca/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.queenscoaching.com/*"
+  to = "https://queenscoaching.ca/:splat"
+  status = 301
+  force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"

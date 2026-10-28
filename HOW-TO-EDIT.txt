@@ -1,0 +1,39 @@
+QUEENSCOACHING WEBSITE — HOW TO EDIT
+=====================================
+
+WHAT'S IN THIS FOLDER
+- index.html ................................ Homepage
+- sch4u-chemistry-tutor-ottawa/index.html ... Grade 12 Chemistry page
+- sch3u-chemistry-tutor-ottawa/index.html ... Grade 11 Chemistry page
+- styles.css ................................ Colours, fonts and layout for every page
+- 404.html .................................. "Page not found" page
+- sitemap.xml, robots.txt ................... Tell Google which pages exist (don't delete)
+- favicon.svg, favicon-32.png, apple-touch-icon.png, logo.png, og-image.png ... Icons and images
+- netlify.toml .............................. Netlify settings (don't delete)
+
+QUICK TEXT CHANGES
+1. Open the .html file in Notepad (Windows) or TextEdit (Mac; choose Format > Make Plain Text).
+2. Press Ctrl+F (Cmd+F on Mac) and search for the words you want to change.
+3. Change only the words between the tags, for example:
+      <p>Change this text</p>
+   Never delete the < > tags themselves.
+4. Save, then drag the WHOLE queenscoaching folder onto Netlify again (Deploys tab).
+
+HANDY SEARCHES
+- Phone number ........ search "613.297.6844" (also "16132976844" in WhatsApp links)
+- Email ............... search "myqueenscoaching@gmail.com"
+- Pricing answer ...... search "PRICING" in index.html
+- Booking form link ... search "docs.google.com/forms"
+- Disclaimer .......... search "Disclaimer"
+
+CHANGES THAT AFFECT EVERY PAGE
+The top bar, header and footer appear on every page, so a phone or email change
+must be made in all three .html files.
+
+BIGGER CHANGES
+New course pages, coaches, testimonials, prices or a new section: ask Claude.
+Share this folder (or the zip) and describe the change.
+
+AFTER ADDING A NEW PAGE
+Add its address to sitemap.xml, then in Google Search Console go to
+Sitemaps and resubmit https://queenscoaching.ca/sitemap.xml
