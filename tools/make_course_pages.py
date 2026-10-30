@@ -58,6 +58,84 @@ COURSES = [
         ],
         "related": [("SCH4U", "Grade 12 Chemistry", "/sch4u-chemistry-tutor-ottawa/"), ("SBI3U", "Grade 11 Biology", None), ("MCR3U", "Grade 11 Functions", None), ("SPH3U", "Grade 11 Physics", None), ("SNC2D", "Grade 10 Science", None)],
     },
+    {
+        "slug": "sbi4u-biology-tutor-ottawa",
+        "code": "SBI4U", "short": "Grade 12 Biology",
+        "crumb_name": "Biology", "crumb_href": "/#courses", "nav": "Courses", "badge": "Grade 12 · University",
+        "title": "SBI4U Biology Tutor in Ottawa & Online | QueensCoaching",
+        "desc": "1-on-1 Grade 12 Biology (SBI4U) tutoring in Ottawa and online. Biochemistry, metabolism, genetics, homeostasis and population dynamics, with personalized notes and stationery included. Book a free assessment.",
+        "h1": "Grade 12 Biology (SBI4U) Tutor in Ottawa & Online",
+        "intro": "Personalized 1-on-1 SBI4U coaching for students heading into health science, life science and nursing programs. We make the big ideas stick and the details easy to remember. Notes and stationery included.",
+        "facts": [("Course", "Biology, Grade 12, University Preparation"), ("Prerequisite", "SBI3U, Grade 11 Biology"), ("Units", "5 strands, from biochemistry to population dynamics"), ("Needed for", "Many health science, life science and nursing programs"), ("Format", "1-on-1, in person in Ottawa or online")],
+        "units": [
+            ("Biochemistry", "Biological molecules, enzymes and how cell membranes work.", "Grade 11 Chemistry basics: bonding and functional groups"),
+            ("Metabolic Processes", "Cellular respiration and photosynthesis, step by step.", "energy and chemical reaction basics"),
+            ("Molecular Genetics", "DNA replication, protein synthesis, gene regulation and biotechnology.", "Grade 11 genetics and cell division"),
+            ("Homeostasis", "The nervous, endocrine and excretory systems and feedback loops.", "Grade 11 body systems"),
+            ("Population Dynamics", "Population growth, carrying capacity and human impact.", "reading graphs and working with data"),
+        ],
+        "plus": "Unit test and final exam prep, lab report writing, and help with diagrams and long-answer questions.",
+        "gap_line": "SBI4U has a lot of detail, and much of it builds on Grade 11 Biology and Chemistry. We check those foundations in the free assessment, then teach memory techniques and clear summaries so students can recall it all on test day.",
+        "faq": [
+            ("Is SBI4U hard?", "It is content-heavy rather than math-heavy. Students who organize the material well and practise applying it usually do very well."),
+            ("Do I need SBI4U for university?", "Many Ontario health science, life science, kinesiology and nursing programs require it. Check each program's admission requirements, and we can help you plan."),
+            ("Does SBI4U need Chemistry?", "SBI4U builds on SBI3U, and the Biochemistry and Metabolism units use Grade 11 Chemistry ideas. We fill any Chemistry gaps as we go."),
+            ("Can you help with online or summer school SBI4U?", "Yes. We follow the same Ontario curriculum whether your child takes SBI4U in day school, summer school or online."),
+        ],
+        "related": [("SCH4U", "Grade 12 Chemistry", "/sch4u-chemistry-tutor-ottawa/"), ("SBI3U", "Grade 11 Biology", None), ("SCH3U", "Grade 11 Chemistry", "/sch3u-chemistry-tutor-ottawa/"), ("MHF4U", "Advanced Functions", None), ("SPH4U", "Grade 12 Physics", None)],
+    },
+    {
+        "slug": "mpm2d-math-tutor-ottawa",
+        "code": "MPM2D", "short": "Grade 10 Math",
+        "crumb_name": "Math", "crumb_href": "/#courses", "nav": "Courses", "badge": "Grade 10 · Advanced (academic)",
+        "unit_label": "Strand",
+        "title": "MPM2D Grade 10 Math Tutor in Ottawa & Online | QueensCoaching",
+        "desc": "1-on-1 Grade 10 Academic Math (MPM2D) tutoring in Ottawa and online. Quadratics, analytic geometry and trigonometry, with personalized notes and stationery included. Book a free assessment.",
+        "h1": "Grade 10 Math (MPM2D) Tutor in Ottawa & Online",
+        "intro": "Personalized 1-on-1 MPM2D coaching for Grade 10 Advanced (academic) Math. We fix Grade 9 gaps while covering quadratics, analytic geometry and trigonometry. Notes and stationery included.",
+        "facts": [("Course", "Principles of Mathematics, Grade 10, Academic"), ("Prerequisite", "MTH1W, Grade 9 Math"), ("Strands", "Quadratics, analytic geometry, trigonometry"), ("Leads to", "MCR3U, Grade 11 Functions"), ("Format", "1-on-1, in person in Ottawa or online")],
+        "units": [
+            ("Quadratic Relations", "Graphing parabolas, expanding, factoring and solving quadratic equations.", "integers, exponents and Grade 9 algebra"),
+            ("Analytic Geometry", "Linear systems, distance, midpoint and properties of shapes on the grid.", "slope and equations of lines"),
+            ("Trigonometry", "Similar triangles, the primary trig ratios and the sine and cosine laws.", "ratios, proportions and rearranging formulas"),
+        ],
+        "plus": "Unit test and final exam prep, plus a head start on MCR3U so Grade 11 Functions feels familiar.",
+        "gap_line": "MPM2D is where algebra becomes essential. Most struggles come from Grade 9 skills like integers, exponents or solving equations, so we check those in the free assessment and close the gaps as we go.",
+        "faq": [
+            ("What is the difference between MPM2D and MFM2P?", "MPM2D is the academic (Advanced) Grade 10 Math course and leads to MCR3U. MFM2P is the applied (Basic) course with more hands-on problems. We tutor both."),
+            ("Is MPM2D hard?", "It is a big step up in algebra, especially factoring and quadratics. With strong Grade 9 foundations, most students do well."),
+            ("Why does MPM2D matter?", "It is the usual prerequisite for MCR3U, Grade 11 Functions, which leads to the Grade 12 university math courses."),
+            ("When should we start tutoring?", "At the start of the semester, or as soon as factoring or quadratics feel shaky. Early help is much easier than catching up."),
+        ],
+        "related": [("MTH1W", "Grade 9 Math", "/mth1w-grade-9-math-tutor-ottawa/"), ("MFM2P", "Grade 10 Basic Math", None), ("MCR3U", "Grade 11 Functions", None), ("SNC2D", "Grade 10 Science", None), ("MHF4U", "Advanced Functions", None)],
+    },
+    {
+        "slug": "mth1w-grade-9-math-tutor-ottawa",
+        "code": "MTH1W", "short": "Grade 9 Math",
+        "crumb_name": "Math", "crumb_href": "/#courses", "nav": "Courses", "badge": "Grade 9 · EQAO prep included",
+        "unit_label": "Strand",
+        "title": "MTH1W Grade 9 Math Tutor & EQAO Prep in Ottawa | QueensCoaching",
+        "desc": "1-on-1 Grade 9 Math (MTH1W) tutoring and EQAO prep in Ottawa and online. Number, algebra, data, geometry and financial literacy, with personalized notes and stationery included. Book a free assessment.",
+        "h1": "Grade 9 Math (MTH1W) Tutor & EQAO Prep in Ottawa & Online",
+        "intro": "Personalized 1-on-1 MTH1W coaching for Ontario's Grade 9 de-streamed Math course, including preparation for the EQAO Grade 9 Math assessment. We build the foundation every later math course depends on.",
+        "facts": [("Course", "Mathematics, Grade 9, de-streamed"), ("Assessment", "EQAO Grade 9 Math, written online, counts toward the final mark"), ("Strands", "Number, algebra, data, geometry and measurement, financial literacy"), ("Leads to", "MPM2D (academic) or MFM2P (applied)"), ("Format", "1-on-1, in person in Ottawa or online")],
+        "units": [
+            ("Number", "Rational numbers, powers and exponent rules, and proportional reasoning.", "fractions, decimals and percentages"),
+            ("Algebra", "Expressions, equations, linear relations and coding.", "order of operations and integers"),
+            ("Data", "Collecting, displaying and analysing data, and making predictions.", "reading graphs and tables"),
+            ("Geometry & Measurement", "Area, volume, angle relationships and optimization.", "formulas and units of measure"),
+            ("Financial Literacy", "Budgets, interest and smart money decisions.", "percentages and rates"),
+        ],
+        "plus": "EQAO Grade 9 Math practice in the online format, plus unit test and final exam prep.",
+        "gap_line": "Grade 9 Math brings together everything from elementary school. Gaps in fractions, integers or percentages show up fast, so we check them in the free assessment and fix them while teaching MTH1W.",
+        "faq": [
+            ("Does EQAO count toward my child's mark?", "Yes. EQAO Grade 9 Math results are included in the final MTH1W course mark. We prepare students for its online format."),
+            ("What does de-streamed mean?", "Since 2021, all Ontario Grade 9 students take the same math course, MTH1W, instead of choosing academic or applied."),
+            ("What comes after MTH1W?", "Most students take MPM2D (academic) in Grade 10, which leads to university math. Others take MFM2P (applied). We help you choose."),
+            ("When should we start tutoring?", "Ideally at the start of Grade 9, or in the summer after Grade 8 to strengthen the basics before high school."),
+        ],
+        "related": [("MPM2D", "Grade 10 Math", "/mpm2d-math-tutor-ottawa/"), ("MFM2P", "Grade 10 Basic Math", None), ("SNC1W", "Grade 9 Science", None), ("SNC2D", "Grade 10 Science", None), ("SCH3U", "Grade 11 Chemistry", "/sch3u-chemistry-tutor-ottawa/")],
+    },
 ]
 
 e = html.escape
@@ -76,7 +154,7 @@ FOOTER = '''<footer class="site-footer">
       <a class="hl" href="mailto:myqueenscoaching@gmail.com">myqueenscoaching@gmail.com</a>
       <a class="hl" href="tel:+16132976844">+1 613.297.6844</a>
     </div>
-    <div class="footer-col"><strong>Courses</strong><a href="/#courses">Grade 9–10 Math</a><a href="/#courses">Grade 9–10 Science</a><a href="/sch3u-chemistry-tutor-ottawa/">SCH3U Chemistry</a><a href="/sch4u-chemistry-tutor-ottawa/">SCH4U Chemistry</a><a href="/#courses">Biology, Math &amp; Physics</a></div>
+    <div class="footer-col"><strong>Courses</strong><a href="/mth1w-grade-9-math-tutor-ottawa/">MTH1W Grade 9 Math</a><a href="/mpm2d-math-tutor-ottawa/">MPM2D Grade 10 Math</a><a href="/sch3u-chemistry-tutor-ottawa/">SCH3U Chemistry</a><a href="/sch4u-chemistry-tutor-ottawa/">SCH4U Chemistry</a><a href="/sbi4u-biology-tutor-ottawa/">SBI4U Biology</a><a href="/#courses">All courses</a></div>
     <div class="footer-col"><strong>Exam prep</strong><a href="/#exams">EQAO Grade 9 Math</a><a href="/#exams">SAT &amp; ACT</a><a href="/#exams">AP &amp; IB</a><a href="/#exams">GCSE &amp; A-levels</a><a href="/#exams">CBSE &amp; NEET</a></div>
     <div class="footer-col"><strong>Get started</strong><a href="/#book">Book a free assessment</a><a href="https://wa.me/16132976844">WhatsApp us</a><a href="/#faq">FAQ</a></div>
   </div>
@@ -103,13 +181,13 @@ def page(c):
         {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in c["faq"]]}
     crumb_ld = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
-        {"@type": "ListItem", "position": 2, "name": "Chemistry", "item": SITE + "/#chemistry"},
+        {"@type": "ListItem", "position": 2, "name": c.get("crumb_name", "Chemistry"), "item": SITE + c.get("crumb_href", "/#chemistry")},
         {"@type": "ListItem", "position": 3, "name": f"{c['code']} {c['short']}", "item": url}]}
     lds = "\n".join(f'<script type="application/ld+json">\n{json.dumps(x, ensure_ascii=False, indent=2)}\n</script>' for x in (course_ld, faq_ld, crumb_ld))
 
     facts = "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in c["facts"])
     units = "".join(
-        f'<article class="unit"><p class="num">Unit {i}</p><h3>{e(t)}</h3><p>{e(d)}</p><p class="rebuild"><strong>Basics we rebuild:</strong> {e(b)}</p></article>'
+        f'<article class="unit"><p class="num">{c.get("unit_label", "Unit")} {i}</p><h3>{e(t)}</h3><p>{e(d)}</p><p class="rebuild"><strong>Basics we rebuild:</strong> {e(b)}</p></article>'
         for i, (t, d, b) in enumerate(c["units"], 1))
     units += f'<article class="unit card-feature"><p class="num">Plus</p><h3>Exams &amp; lab reports</h3><p>{e(c["plus"])}</p></article>'
     faqs = "".join(f"<details><summary>{e(q)}</summary><p>{e(a)}</p></details>" for q, a in c["faq"])
@@ -150,8 +228,8 @@ def page(c):
 <header class="site-header"><div class="wrap">
   <a class="logo" href="/" aria-label="QueensCoaching home">{LOGO}<span><span class="logo-name">QueensCoaching</span><span class="logo-tag">Rule your subject</span></span></a>
   <nav class="nav" aria-label="Main">
-    <a href="/#courses">Courses</a>
-    <a href="/sch4u-chemistry-tutor-ottawa/" aria-current="page">Chemistry</a>
+    <a href="/#courses"{' aria-current="page"' if c.get('nav') == 'Courses' else ''}>Courses</a>
+    <a href="/sch4u-chemistry-tutor-ottawa/"{' aria-current="page"' if c.get('nav', 'Chemistry') == 'Chemistry' else ''}>Chemistry</a>
     <a href="/#exams">Exam Prep</a>
     <a href="/#method">How It Works</a>
     <a href="/#faq">FAQ</a>
@@ -161,10 +239,10 @@ def page(c):
 
 <main id="main">
 <section class="brand">
-  <div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/#chemistry">Chemistry</a> › <span>{e(c['code'])} {e(c['short'])}</span></nav></div>
+  <div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="{c.get('crumb_href', '/#chemistry')}">{e(c.get('crumb_name', 'Chemistry'))}</a> › <span>{e(c['code'])} {e(c['short'])}</span></nav></div>
   <div class="wrap hero" style="display:grid;gap:48px;grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));align-items:center;padding-top:40px;padding-bottom:72px">
     <div class="hero-copy">
-      <span class="badge badge-solid">Signature program</span>
+      <span class="badge badge-solid">{e(c.get('badge', 'Signature program'))}</span>
       <h1 style="margin:0;font-family:var(--serif);font-weight:600;font-size:clamp(34px,4.4vw,54px);letter-spacing:-.02em;line-height:1.08">{e(c['h1'])}</h1>
       <p class="hero-sub">{e(c['intro'])}</p>
       <div class="btn-row">
