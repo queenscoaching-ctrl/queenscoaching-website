@@ -424,6 +424,7 @@ def page(c):
   <div>
     <p class="eyebrow">Included with {e(c['code'])} coaching</p>
     <h2 class="h2">We fix the basics while we cover the curriculum.</h2>
+    <p style="margin:0 0 12px;font-size:18px;color:var(--ink-soft)">Looking for an <strong>{e(c['code'])} tutor in Ottawa</strong> or online? Our <strong>high school {e(c['crumb_name'] if c.get('crumb_name') else 'Chemistry').lower()} tutors</strong> teach {e(c['code'])} 1-on-1, in person or live online.</p>
     <p style="margin:0;font-size:18px;color:var(--ink-soft)">{e(c['gap_line'])}</p>
   </div>
   <ul class="check-list">
