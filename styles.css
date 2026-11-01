@@ -184,3 +184,13 @@ h1, h2, h3 { line-height: 1.15; }
   .nav { gap: 0 16px; font-size: 15px; }
   .site-header .btn { width: 100%; }
 }
+
+/* Founder section */
+.founder { display: grid; gap: 48px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); align-items: center; }
+.founder-photo { width: 100%; max-width: 440px; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 20px; box-shadow: 0 20px 50px rgba(46, 24, 80, .18); justify-self: center; }
+.founder-quote { margin: 0 0 22px; padding-left: 20px; border-left: 4px solid var(--gold); font-family: var(--serif); font-size: 21px; line-height: 1.45; color: var(--ink); }
+.founder-facts { margin: 0 0 26px; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; color: var(--ink-soft); }
+.founder-facts li { padding-left: 28px; position: relative; }
+.founder-facts li::before { content: ""; position: absolute; left: 0; top: .45em; width: 14px; height: 14px; border-radius: 50%; background: var(--gold); }
+.btn-ghost { border: 2px solid var(--purple); color: var(--purple); padding: 13px 24px; }
+.btn-ghost:hover { background: var(--lavender); color: var(--purple-dark); }
