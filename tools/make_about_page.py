@@ -14,7 +14,7 @@ QUOTE = ("I've taught students on four continents, and I've learned one thing: e
          "and Math when the basics are strong. My job is to find what's missing, rebuild it with patience, and help "
          "each student walk into exams with confidence.")
 BIO = [
-    "Harleen brings more than 10 years of international experience across Canada, the United States, the United "
+    "Harleen brings more than 10 years of international teaching experience across Canada, the United States, the United "
     "Kingdom, Australia, New Zealand and India. She holds a B.Sc. and an M.Sc. and has a background in pharmacy, "
     "which gives her a deep, practical understanding of Chemistry and Biology.",
     "She founded QueensCoaching to give high school students the personal attention they rarely get in a busy "
@@ -27,7 +27,7 @@ TEACHES = ["sch3u-chemistry-tutor-ottawa", "sch4u-chemistry-tutor-ottawa", "sch4
            "sbi3u-biology-tutor-ottawa", "sbi4u-biology-tutor-ottawa", "mth1w-grade-9-math-tutor-ottawa",
            "mpm2d-math-tutor-ottawa", "mcr3u-functions-tutor-ottawa", "mhf4u-advanced-functions-tutor-ottawa"]
 TITLE = "Harleen Kaur, Founder & Lead Coach | QueensCoaching Ottawa"
-DESC = ("Meet Harleen Kaur, founder of QueensCoaching: 10+ years of international experience, B.Sc. and M.Sc. with a "
+DESC = ("Meet Harleen Kaur, founder of QueensCoaching: 10+ years of international teaching experience, B.Sc. and M.Sc. with a "
         "pharmacy background, coaching Grade 9–12 Chemistry, Biology and Math in Ottawa and online.")
 
 
@@ -113,14 +113,14 @@ def page():
 <section class="section"><div class="wrap grid-2">
   <div>
     <p class="eyebrow">Her story</p>
-    <h2 class="h2">10+ years of international experience, now in Ottawa</h2>
+    <h2 class="h2">10+ years of international teaching, now in Ottawa</h2>
   </div>
   <div>{bio}</div>
 </div></section>
 
 <section class="section alt"><div class="wrap grid-2">
   <div class="pill-box" style="background:#fff">
-    <h3>Experience across six countries</h3>
+    <h3>Teaching experience across six countries</h3>
     <div class="pills">{countries}</div>
   </div>
   <div class="pill-box" style="background:#fff">
