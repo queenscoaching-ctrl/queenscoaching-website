@@ -11,7 +11,7 @@
   gtag('js', new Date());
   gtag('config', 'G-Z6NWKE0DK0');
   // Lead tracking: booking form, WhatsApp, phone and email clicks
-  document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href'),n=null;if(h.indexOf('docs.google.com/forms')>-1)n='generate_lead';else if(h.indexOf('wa.me/')>-1)n='whatsapp_click';else if(h.indexOf('tel:')===0)n='phone_click';else if(h.indexOf('mailto:')===0)n='email_click';if(n)gtag('event',n,{link_url:h,link_text:(a.textContent||'').trim().slice(0,80),page_path:location.pathname});});
+  document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href'),n=null;if(h.indexOf('docs.google.com/forms')>-1)n='generate_lead';else if(h.indexOf('wa.me/')>-1)n='whatsapp_click';else if(h.indexOf('g.page/r/')>-1)n='review_click';else if(h.indexOf('tel:')===0)n='phone_click';else if(h.indexOf('mailto:')===0)n='email_click';if(n)gtag('event',n,{link_url:h,link_text:(a.textContent||'').trim().slice(0,80),page_path:location.pathname});});
 </script>
 <title>Page not found | QueensCoaching</title>
 <meta name="robots" content="noindex">
