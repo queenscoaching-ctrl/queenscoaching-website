@@ -194,3 +194,8 @@ h1, h2, h3 { line-height: 1.15; }
 .founder-facts li::before { content: ""; position: absolute; left: 0; top: .45em; width: 14px; height: 14px; border-radius: 50%; background: var(--gold); }
 .btn-ghost { border: 2px solid var(--purple); color: var(--purple); padding: 13px 24px; }
 .btn-ghost:hover { background: var(--lavender); color: var(--purple-dark); }
+
+/* Google review strip */
+.review-strip{margin-top:28px;padding:26px 28px;border-radius:18px;background:#fff;border:1px solid var(--lavender-line);text-align:left}
+.review-strip p{margin:6px 0 14px;color:var(--ink)}
+.review-stars{color:var(--gold);font-size:22px;letter-spacing:3px}
