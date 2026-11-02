@@ -295,7 +295,18 @@ COURSES = [
 
 e = html.escape
 
-HEAD_FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">'
+GA_ID = "G-Z6NWKE0DK0"
+GTAG = (
+    '<!-- Google tag (gtag.js) -->\n'
+    f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>\n'
+    '<script>\n'
+    '  window.dataLayer = window.dataLayer || [];\n'
+    '  function gtag(){dataLayer.push(arguments);}\n'
+    "  gtag('js', new Date());\n"
+    f"  gtag('config', '{GA_ID}');\n"
+    '</script>'
+)
+HEAD_FONTS = GTAG + '\n' + '<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">'
 
 LOGO = '<svg width="48" height="48" viewBox="0 0 80 80" aria-hidden="true"><path d="M12 30 L17 10 L28 22 L40 4 L52 22 L63 10 L68 30 Z" fill="#D4A73C"/><path d="M6 36 Q22 30 39 37 V74 Q22 67 6 73 Z" fill="#4B2A7B"/><path d="M74 36 Q58 30 41 37 V74 Q58 67 74 73 Z" fill="#6B45A3"/></svg>'
 
@@ -317,6 +328,7 @@ FOOTER = '''<footer class="site-footer">
   </div>
   <div class="wrap footer-legal">
     <p>Disclaimer: Results vary by learner. QueensCoaching is an independent tutoring service and is not affiliated with any school board, university or exam body, including EQAO, College Board, ACT, the International Baccalaureate Organization, Cambridge, CBSE, Qualifications Scotland or the University of Waterloo. Exam names are trademarks of their owners.</p>
+    <p>Privacy: this site uses Google Analytics to count visits and see which pages help families most. We never sell your information.</p>
     <p>© 2026 QueensCoaching</p>
   </div>
 </footer>'''
