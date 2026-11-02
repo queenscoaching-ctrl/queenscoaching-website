@@ -304,6 +304,8 @@ GTAG = (
     '  function gtag(){dataLayer.push(arguments);}\n'
     "  gtag('js', new Date());\n"
     f"  gtag('config', '{GA_ID}');\n"
+    "  // Lead tracking: booking form, WhatsApp, phone and email clicks\n"
+    "  document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href'),n=null;if(h.indexOf('docs.google.com/forms')>-1)n='generate_lead';else if(h.indexOf('wa.me/')>-1)n='whatsapp_click';else if(h.indexOf('tel:')===0)n='phone_click';else if(h.indexOf('mailto:')===0)n='email_click';if(n)gtag('event',n,{link_url:h,link_text:(a.textContent||'').trim().slice(0,80),page_path:location.pathname});});\n"
     '</script>'
 )
 HEAD_FONTS = GTAG + '\n' + '<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">'
