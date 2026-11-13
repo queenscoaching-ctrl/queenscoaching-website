@@ -7,7 +7,7 @@ Only list schools that have been checked against a reliable source.
 import json, sys, os
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from make_course_pages import SITE, HEAD_FONTS, LOGO, WA_ICON, FOOTER, COURSES, e  # noqa: E402
+from make_course_pages import SITE, HEAD_FONTS, LOGO, WA_ICON, FOOTER, COURSES, e, TOPBAR, header  # noqa: E402
 
 AREAS = [
     {
@@ -120,7 +120,7 @@ def page(a):
         {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": ans}} for q, ans in a["faq"]]}
     crumb_ld = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
-        {"@type": "ListItem", "position": 2, "name": "Areas we serve", "item": SITE + "/#locations"},
+        {"@type": "ListItem", "position": 2, "name": "Areas we serve", "item": SITE + "/areas/"},
         {"@type": "ListItem", "position": 3, "name": a["name"], "item": url}]}
     lds = "\n".join(f'<script type="application/ld+json">\n{json.dumps(x, ensure_ascii=False, indent=2)}\n</script>' for x in (biz_ld, faq_ld, crumb_ld))
 
@@ -159,32 +159,19 @@ def page(a):
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="topbar"><div class="wrap">
-  <span>Grade 9–12 Math &amp; Science · Free assessment · In person in Ottawa · Online worldwide</span>
-  <a href="tel:+16132976844">Call or WhatsApp +1 613.297.6844</a>
-</div></div>
-<header class="site-header"><div class="wrap">
-  <a class="logo" href="/" aria-label="QueensCoaching home">{LOGO}<span><span class="logo-name">QueensCoaching</span><span class="logo-tag">Rule your subject</span></span></a>
-  <nav class="nav" aria-label="Main">
-    <a href="/#courses">Courses</a>
-    <a href="/sch4u-chemistry-tutor-ottawa/">Chemistry</a>
-    <a href="/#exams">Exam Prep</a>
-    <a href="/#method">How It Works</a>
-    <a href="/#faq">FAQ</a>
-  </nav>
-  <a class="btn btn-gold" href="/#book">Book Free Assessment</a>
-</div></header>
+{TOPBAR}
+{header('Areas')}
 
 <main id="main">
 <section class="brand">
-  <div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/#locations">Areas we serve</a> › <span>{e(a['name'])}</span></nav></div>
+  <div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/areas/">Areas we serve</a> › <span>{e(a['name'])}</span></nav></div>
   <div class="wrap hero" style="display:grid;gap:48px;grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));align-items:center;padding-top:40px;padding-bottom:72px">
     <div class="hero-copy">
       <span class="badge badge-solid">In-home &amp; online · {e(a['name'])}</span>
       <h1 style="margin:0;font-family:var(--serif);font-weight:600;font-size:clamp(34px,4.4vw,54px);letter-spacing:-.02em;line-height:1.08">{e(a['h1'])}</h1>
       <p class="hero-sub">{e(a['intro'])}</p>
       <div class="btn-row">
-        <a class="btn btn-gold" href="/#book">Book a Free Assessment</a>
+        <a class="btn btn-gold" href="/book/">Book a Free Assessment</a>
         <a class="btn btn-outline" href="https://wa.me/16132976844">WhatsApp us</a>
       </div>
     </div>
@@ -238,7 +225,7 @@ def page(a):
   <ol class="steps" style="margin-top:28px">
     <li><p class="step-num">01</p><h3>Book</h3><p>Fill in the short form or WhatsApp us. We reply within 24 hours.</p></li>
     <li><p class="step-num">02</p><h3>Assess</h3><p>A free session, at home in {e(a['name'])} or online, with a foundations check.</p></li>
-    <li><p class="step-num">03</p><h3>Plan</h3><p>A written plan within 48 hours: the gaps to close and the course to cover.</p></li>
+    <li><p class="step-num">03</p><h3>Plan</h3><p>A written plan within 24 hours: the gaps to close and the course to cover.</p></li>
     <li><p class="step-num">04</p><h3>Coach</h3><p>Regular 1-on-1 sessions at times that suit your family.</p></li>
   </ol>
 </div></section>
@@ -250,14 +237,14 @@ def page(a):
 
 <section style="padding-bottom:80px"><div class="wrap">
   <h2 style="margin:0 0 16px;font-size:20px">Other areas we serve</h2>
-  <div class="pills">{other}<a class="pill" href="/#locations">Online, anywhere</a></div>
+  <div class="pills">{other}<a class="pill" href="/areas/">Online, anywhere</a></div>
 </div></section>
 
 <section class="section brand cta"><div class="wrap narrow">
   <h2>Ready to get started in {e(a['name'])}?</h2>
   <p>Book a free assessment with a foundations check. No obligation.</p>
   <div class="btn-row" style="justify-content:center">
-    <a class="btn btn-gold" href="/#book">Book Free Assessment</a>
+    <a class="btn btn-gold" href="/book/">Book Free Assessment</a>
     <a class="btn btn-outline" href="https://wa.me/16132976844">Chat on WhatsApp</a>
   </div>
 </div></section>

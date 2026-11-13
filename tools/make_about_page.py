@@ -5,7 +5,7 @@ Edit the text below and re-run to update the page.
 import json, os, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from make_course_pages import SITE, HEAD_FONTS, LOGO, WA_ICON, FOOTER, COURSES, e  # noqa: E402
+from make_course_pages import SITE, HEAD_FONTS, LOGO, WA_ICON, FOOTER, COURSES, e, TOPBAR, header  # noqa: E402
 
 SLUG = "about-harleen-kaur"
 NAME = "Harleen Kaur"
@@ -76,21 +76,8 @@ def page():
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="topbar"><div class="wrap">
-  <span>Grade 9–12 Math &amp; Science · Free assessment · In person in Ottawa · Online worldwide</span>
-  <a href="tel:+16132976844">Call or WhatsApp +1 613.297.6844</a>
-</div></div>
-<header class="site-header"><div class="wrap">
-  <a class="logo" href="/" aria-label="QueensCoaching home">{LOGO}<span><span class="logo-name">QueensCoaching</span><span class="logo-tag">Rule your subject</span></span></a>
-  <nav class="nav" aria-label="Main">
-    <a href="/#courses">Courses</a>
-    <a href="/sch4u-chemistry-tutor-ottawa/">Chemistry</a>
-    <a href="/#exams">Exam Prep</a>
-    <a href="/#method">How It Works</a>
-    <a href="/#faq">FAQ</a>
-  </nav>
-  <a class="btn btn-gold" href="/#book">Book Free Assessment</a>
-</div></header>
+{TOPBAR}
+{header('About')}
 
 <main id="main">
 <section class="brand">
@@ -103,7 +90,7 @@ def page():
       <p class="hero-sub" style="font-weight:600;color:var(--gold-light)">{e(ROLE)}, QueensCoaching</p>
       <blockquote class="founder-quote" style="color:#fff;font-size:20px">&ldquo;{e(QUOTE)}&rdquo;</blockquote>
       <div class="btn-row">
-        <a class="btn btn-gold" href="/#book">Book a free assessment with Harleen</a>
+        <a class="btn btn-gold" href="/book/">Book a free assessment with Harleen</a>
         <a class="btn btn-outline" href="https://wa.me/16132976844">WhatsApp Harleen</a>
       </div>
     </div>
@@ -155,7 +142,7 @@ def page():
   <h2>Learn with Harleen</h2>
   <p>Start with a free assessment and foundations check. No obligation.</p>
   <div class="btn-row" style="justify-content:center">
-    <a class="btn btn-gold" href="/#book">Book Free Assessment</a>
+    <a class="btn btn-gold" href="/book/">Book Free Assessment</a>
     <a class="btn btn-outline" href="https://wa.me/16132976844">Chat on WhatsApp</a>
   </div>
 </div></section>

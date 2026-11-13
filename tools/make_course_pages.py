@@ -10,6 +10,7 @@ FORM = "https://docs.google.com/forms/d/e/1FAIpQLSfSMPITgPyIUz1aoePzP-xrCxtcTHLr
 COURSES = [
     {
         "slug": "sch4u-chemistry-tutor-ottawa",
+        "guides": [("SCH3U vs SCH4U", "/sch3u-vs-sch4u/"), ("Chemistry tutor in Ottawa", "/chemistry-tutor-ottawa/")],
         "code": "SCH4U", "short": "Grade 12 Chemistry",
         "title": "SCH4U Chemistry Tutor in Ottawa & Online | QueensCoaching",
         "desc": "1-on-1 Grade 12 Chemistry (SCH4U) tutoring in Ottawa and online. Every unit from organic chemistry to electrochemistry, with personalized notes and stationery included. Book a free assessment.",
@@ -35,6 +36,7 @@ COURSES = [
     },
     {
         "slug": "sch3u-chemistry-tutor-ottawa",
+        "guides": [("Is SCH3U hard?", "/is-sch3u-hard/"), ("SCH3U vs SCH4U", "/sch3u-vs-sch4u/")],
         "code": "SCH3U", "short": "Grade 11 Chemistry",
         "title": "SCH3U Chemistry Tutor in Ottawa & Online | QueensCoaching",
         "desc": "1-on-1 Grade 11 Chemistry (SCH3U) tutoring in Ottawa and online. Master bonding, reactions, the mole, solutions and gases, with personalized notes and stationery included. Book a free assessment.",
@@ -61,7 +63,7 @@ COURSES = [
     {
         "slug": "sbi4u-biology-tutor-ottawa",
         "code": "SBI4U", "short": "Grade 12 Biology",
-        "crumb_name": "Biology", "crumb_href": "/#courses", "nav": "Courses", "badge": "Grade 12 · University",
+        "crumb_name": "Biology", "crumb_href": "/courses/", "nav": "Courses", "badge": "Grade 12 · University",
         "title": "SBI4U Biology Tutor in Ottawa & Online | QueensCoaching",
         "desc": "1-on-1 Grade 12 Biology (SBI4U) tutoring in Ottawa and online. Biochemistry, metabolism, genetics, homeostasis and population dynamics, with personalized notes and stationery included. Book a free assessment.",
         "h1": "Grade 12 Biology (SBI4U) Tutor in Ottawa & Online",
@@ -87,7 +89,7 @@ COURSES = [
     {
         "slug": "mpm2d-math-tutor-ottawa",
         "code": "MPM2D", "short": "Grade 10 Math",
-        "crumb_name": "Math", "crumb_href": "/#courses", "nav": "Courses", "badge": "Grade 10 · Advanced (academic)",
+        "crumb_name": "Math", "crumb_href": "/courses/", "nav": "Courses", "badge": "Grade 10 · Advanced (academic)",
         "unit_label": "Strand",
         "title": "MPM2D Grade 10 Math Tutor in Ottawa & Online | QueensCoaching",
         "desc": "1-on-1 Grade 10 Academic Math (MPM2D) tutoring in Ottawa and online. Quadratics, analytic geometry and trigonometry, with personalized notes and stationery included. Book a free assessment.",
@@ -112,7 +114,7 @@ COURSES = [
     {
         "slug": "mth1w-grade-9-math-tutor-ottawa",
         "code": "MTH1W", "short": "Grade 9 Math",
-        "crumb_name": "Math", "crumb_href": "/#courses", "nav": "Courses", "badge": "Grade 9 · EQAO prep included",
+        "crumb_name": "Math", "crumb_href": "/courses/", "nav": "Courses", "badge": "Grade 9 · EQAO prep included",
         "unit_label": "Strand",
         "title": "MTH1W Grade 9 Math Tutor & EQAO Prep in Ottawa | QueensCoaching",
         "desc": "1-on-1 Grade 9 Math (MTH1W) tutoring and EQAO prep in Ottawa and online. Number, algebra, data, geometry and financial literacy, with personalized notes and stationery included. Book a free assessment.",
@@ -138,8 +140,9 @@ COURSES = [
     },
     {
         "slug": "mhf4u-advanced-functions-tutor-ottawa",
+        "guides": [("Is MHF4U hard?", "/is-mhf4u-hard/")],
         "code": "MHF4U", "short": "Advanced Functions",
-        "crumb_name": "Math", "crumb_href": "/#courses", "nav": "Courses", "badge": "Grade 12 · University",
+        "crumb_name": "Math", "crumb_href": "/courses/", "nav": "Courses", "badge": "Grade 12 · University",
         "unit_label": "Strand",
         "title": "MHF4U Advanced Functions Tutor in Ottawa & Online | QueensCoaching",
         "desc": "1-on-1 Grade 12 Advanced Functions (MHF4U) tutoring in Ottawa and online. Logarithms, trigonometry, polynomial and rational functions, with personalized notes and stationery included. Book a free assessment.",
@@ -165,7 +168,7 @@ COURSES = [
     {
         "slug": "mcv4u-calculus-vectors-tutor-ottawa",
         "code": "MCV4U", "short": "Calculus & Vectors",
-        "crumb_name": "Math", "crumb_href": "/#courses", "nav": "Courses", "badge": "Grade 12 · University",
+        "crumb_name": "Math", "crumb_href": "/courses/", "nav": "Courses", "badge": "Grade 12 · University",
         "unit_label": "Strand",
         "title": "MCV4U Calculus & Vectors Tutor in Ottawa & Online | QueensCoaching",
         "desc": "1-on-1 Grade 12 Calculus and Vectors (MCV4U) tutoring in Ottawa and online. Rates of change, derivatives, optimization, vectors, lines and planes, with personalized notes and stationery included. Book a free assessment.",
@@ -190,7 +193,7 @@ COURSES = [
     {
         "slug": "sph4u-physics-tutor-ottawa",
         "code": "SPH4U", "short": "Grade 12 Physics",
-        "crumb_name": "Physics", "crumb_href": "/#courses", "nav": "Courses", "badge": "Grade 12 · University",
+        "crumb_name": "Physics", "crumb_href": "/courses/", "nav": "Courses", "badge": "Grade 12 · University",
         "title": "SPH4U Physics Tutor in Ottawa & Online | QueensCoaching",
         "desc": "1-on-1 Grade 12 Physics (SPH4U) tutoring in Ottawa and online. Dynamics, energy and momentum, fields, the wave nature of light and modern physics, with personalized notes and stationery included. Book a free assessment.",
         "h1": "Grade 12 Physics (SPH4U) Tutor in Ottawa & Online",
@@ -215,6 +218,7 @@ COURSES = [
     },
     {
         "slug": "sch4c-college-chemistry-tutor-ottawa",
+        "guides": [("Chemistry tutor in Ottawa", "/chemistry-tutor-ottawa/")],
         "code": "SCH4C", "short": "Grade 12 College Chemistry",
         "badge": "Grade 12 · College",
         "title": "SCH4C College Chemistry Tutor in Ottawa & Online | QueensCoaching",
@@ -242,7 +246,7 @@ COURSES = [
     {
         "slug": "sbi3u-biology-tutor-ottawa",
         "code": "SBI3U", "short": "Grade 11 Biology",
-        "crumb_name": "Biology", "crumb_href": "/#courses", "nav": "Courses", "badge": "Grade 11 · University",
+        "crumb_name": "Biology", "crumb_href": "/courses/", "nav": "Courses", "badge": "Grade 11 · University",
         "title": "SBI3U Biology Tutor in Ottawa & Online | QueensCoaching",
         "desc": "1-on-1 Grade 11 Biology (SBI3U) tutoring in Ottawa and online. Diversity, evolution, genetics, animal systems and plants, with personalized notes and stationery included. Book a free assessment.",
         "h1": "Grade 11 Biology (SBI3U) Tutor in Ottawa & Online",
@@ -267,8 +271,9 @@ COURSES = [
     },
     {
         "slug": "mcr3u-functions-tutor-ottawa",
+        "guides": [("Is MHF4U hard?", "/is-mhf4u-hard/")],
         "code": "MCR3U", "short": "Grade 11 Functions",
-        "crumb_name": "Math", "crumb_href": "/#courses", "nav": "Courses", "badge": "Grade 11 · University",
+        "crumb_name": "Math", "crumb_href": "/courses/", "nav": "Courses", "badge": "Grade 11 · University",
         "unit_label": "Strand",
         "title": "MCR3U Grade 11 Functions Tutor in Ottawa & Online | QueensCoaching",
         "desc": "1-on-1 Grade 11 Functions (MCR3U) tutoring in Ottawa and online. Characteristics of functions, exponential, discrete and trigonometric functions, with personalized notes and stationery included. Book a free assessment.",
@@ -290,6 +295,32 @@ COURSES = [
             ("When should we start tutoring?", "At the start of the semester, or as soon as functions or factoring feel shaky. Early help is much easier than catching up."),
         ],
         "related": [("MPM2D", "Grade 10 Math", "/mpm2d-math-tutor-ottawa/"), ("MHF4U", "Advanced Functions", "/mhf4u-advanced-functions-tutor-ottawa/"), ("MCV4U", "Calculus & Vectors", "/mcv4u-calculus-vectors-tutor-ottawa/"), ("SPH3U", "Grade 11 Physics", None), ("SCH3U", "Grade 11 Chemistry", "/sch3u-chemistry-tutor-ottawa/")],
+    },
+    {
+        "slug": "sph3u-physics-tutor-ottawa",
+        "code": "SPH3U", "short": "Grade 11 Physics",
+        "crumb_name": "Physics", "crumb_href": "/courses/", "nav": "Courses", "badge": "Grade 11 · University",
+        "title": "SPH3U Physics Tutor in Ottawa & Online | QueensCoaching",
+        "desc": "1-on-1 Grade 11 Physics (SPH3U) tutoring in Ottawa and online. Kinematics, forces, energy, waves and sound, electricity and magnetism, with personalized notes and stationery included. Book a free assessment.",
+        "h1": "Grade 11 Physics (SPH3U) Tutor in Ottawa & Online",
+        "intro": "Personalized 1-on-1 SPH3U coaching for a student's first full physics course. We make the ideas click and rebuild the math behind every formula. Notes and stationery included.",
+        "facts": [("Course", "Physics, Grade 11, University Preparation"), ("Prerequisite", "SNC2D, Grade 10 Science"), ("Units", "5 strands, from kinematics to electricity"), ("Leads to", "SPH4U, Grade 12 Physics"), ("Format", "1-on-1, in person in Ottawa or online")],
+        "units": [
+            ("Kinematics", "Distance, displacement, velocity, acceleration and motion graphs.", "slope, graphing and rearranging formulas"),
+            ("Forces", "Newton's laws, free-body diagrams, friction and net force.", "vectors and basic trigonometry"),
+            ("Energy & Society", "Work, kinetic and potential energy, power and efficiency.", "substituting into formulas and units"),
+            ("Waves & Sound", "Wave properties, the speed of sound, resonance and interference.", "ratios and scientific notation"),
+            ("Electricity & Magnetism", "Current, voltage, resistance, circuits and electromagnetism.", "Grade 9 electricity and algebra"),
+        ],
+        "plus": "Unit test and final exam prep, lab report writing, and optional Waterloo Sir Isaac Newton (SIN) Exam practice.",
+        "gap_line": "SPH3U is where many students first meet physics formulas every day. Most struggles trace back to algebra, graphing or trig ratios, so we check those in the free assessment and fix them as we go.",
+        "faq": [
+            ("Is SPH3U hard?", "It is a step up from Grade 10 Science because almost every question uses algebra. Students who practise free-body diagrams and formula rearranging early usually do well."),
+            ("Do I need SPH3U?", "SPH3U is the prerequisite for SPH4U, which many Ontario engineering and physical science programs require."),
+            ("When should we start tutoring?", "At the start of the course, or before the Forces unit, where vectors and free-body diagrams first appear."),
+            ("Can you help with online or summer school SPH3U?", "Yes. We follow the same Ontario curriculum whether your child takes SPH3U in day school, summer school or online."),
+        ],
+        "related": [("SPH4U", "Grade 12 Physics", "/sph4u-physics-tutor-ottawa/"), ("MCR3U", "Grade 11 Functions", "/mcr3u-functions-tutor-ottawa/"), ("SCH3U", "Grade 11 Chemistry", "/sch3u-chemistry-tutor-ottawa/"), ("SBI3U", "Grade 11 Biology", "/sbi3u-biology-tutor-ottawa/"), ("SNC2D", "Grade 10 Science", None)],
     },
 ]
 
@@ -314,6 +345,96 @@ LOGO = '<svg width="48" height="48" viewBox="0 0 80 80" aria-hidden="true"><path
 
 WA_ICON = '<svg width="30" height="30" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.4-.2z"/></svg>'
 
+# ---------- Shared site menu (used by every generated page) ----------
+# To add a page to the menu, add it to the matching list below and re-run all generators.
+NAV_COURSES = [
+    ("Math", [("Grade 9 Math", "MTH1W", "/mth1w-grade-9-math-tutor-ottawa/"), ("Grade 10 Math", "MPM2D", "/mpm2d-math-tutor-ottawa/"),
+              ("Grade 11 Functions", "MCR3U", "/mcr3u-functions-tutor-ottawa/"), ("Advanced Functions", "MHF4U", "/mhf4u-advanced-functions-tutor-ottawa/"),
+              ("Calculus & Vectors", "MCV4U", "/mcv4u-calculus-vectors-tutor-ottawa/")]),
+    ("Chemistry", [("Grade 11 Chemistry", "SCH3U", "/sch3u-chemistry-tutor-ottawa/"), ("Grade 12 Chemistry", "SCH4U", "/sch4u-chemistry-tutor-ottawa/"),
+                   ("Grade 12 College Chemistry", "SCH4C", "/sch4c-college-chemistry-tutor-ottawa/")]),
+    ("Biology", [("Grade 11 Biology", "SBI3U", "/sbi3u-biology-tutor-ottawa/"), ("Grade 12 Biology", "SBI4U", "/sbi4u-biology-tutor-ottawa/")]),
+    ("Physics", [("Grade 11 Physics", "SPH3U", "/sph3u-physics-tutor-ottawa/"), ("Grade 12 Physics", "SPH4U", "/sph4u-physics-tutor-ottawa/")]),
+]
+NAV_AREAS = [("Kanata", "/tutor-kanata-ottawa/"), ("Barrhaven", "/tutor-barrhaven-ottawa/"), ("Orléans", "/tutor-orleans-ottawa/"),
+             ("Nepean", "/tutor-nepean-ottawa/"), ("Stittsville", "/tutor-stittsville-ottawa/"), ("Online, anywhere", "/online-chemistry-tutor-ontario/")]
+NAV_GUIDES = [("Is SCH3U hard?", "/is-sch3u-hard/"), ("SCH3U vs SCH4U", "/sch3u-vs-sch4u/"), ("Is MHF4U hard?", "/is-mhf4u-hard/"),
+              ("Chemistry tutor in Ottawa", "/chemistry-tutor-ottawa/")]
+
+TOPBAR = (
+    '<div class="topbar"><div class="wrap">\n'
+    '  <span>Grade 9–12 Math &amp; Science · Free assessment · In person in Ottawa · Online worldwide</span>\n'
+    '  <a href="tel:+16132976844">Call or WhatsApp +1 613.297.6844</a>\n'
+    '</div></div>'
+)
+
+NAV_JS = """<script>
+(function(){var h=document.querySelector('.site-header');if(!h)return;var b=h.querySelector('.burger');
+function closeAll(){h.querySelectorAll('.dd.open').forEach(function(x){x.classList.remove('open');x.querySelector('.dd-toggle').setAttribute('aria-expanded','false');});}
+b.addEventListener('click',function(){var o=h.classList.toggle('menu-open');b.setAttribute('aria-expanded',o);b.setAttribute('aria-label',o?'Close menu':'Open menu');});
+h.querySelectorAll('.dd-toggle').forEach(function(t){t.addEventListener('click',function(){var d=t.parentNode,o=!d.classList.contains('open');closeAll();if(o){d.classList.add('open');t.setAttribute('aria-expanded','true');}});});
+document.addEventListener('click',function(ev){if(!h.contains(ev.target))closeAll();});
+document.addEventListener('keydown',function(ev){if(ev.key==='Escape'){h.classList.remove('menu-open');closeAll();}});})();
+</script>"""
+
+
+def header(active=""):
+    """Site header with the tab menu. active = Courses | Exam Prep | How It Works | Areas | Guides | About | Book"""
+    def cur(k):
+        return ' aria-current="page"' if active == k else ''
+
+    def dd(key, label, href, panel, wide=False):
+        return (f'<div class="dd"><a class="top" href="{href}"{cur(key)}>{label}</a>'
+                f'<button class="dd-toggle" type="button" aria-expanded="false" aria-label="Show {label} menu">▾</button>'
+                f'<div class="dd-panel{" dd-wide" if wide else ""}">{panel}</div></div>')
+    cols = "".join(
+        f'<div><p class="dd-h">{e(g)}</p>' + "".join(f'<a href="{h}">{e(t)}<small>{e(code)}</small></a>' for t, code, h in items) + '</div>'
+        for g, items in NAV_COURSES)
+    courses = cols + '<a class="dd-all" href="/courses/">See all courses →</a>'
+    areas = "".join(f'<a href="{h}">{e(t)}</a>' for t, h in NAV_AREAS) + '<a class="dd-all" href="/areas/">All areas →</a>'
+    guides = "".join(f'<a href="{h}">{e(t)}</a>' for t, h in NAV_GUIDES) + '<a class="dd-all" href="/guides/">All parent guides →</a>'
+    return f'''<header class="site-header"><div class="wrap">
+  <a class="logo" href="/" aria-label="QueensCoaching home">{LOGO}<span><span class="logo-name">QueensCoaching</span><span class="logo-tag">Rule your subject</span></span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+  <nav class="nav" id="site-nav" aria-label="Main">
+    {dd("Courses", "Courses", "/courses/", courses, True)}
+    <a class="top" href="/exam-prep/"{cur("Exam Prep")}>Exam Prep</a>
+    <a class="top" href="/how-it-works/"{cur("How It Works")}>How It Works</a>
+    {dd("Areas", "Areas", "/areas/", areas)}
+    {dd("Guides", "Parent Guides", "/guides/", guides)}
+    <a class="top" href="/about-harleen-kaur/"{cur("About")}>About</a>
+    <a class="btn btn-gold nav-btn" href="/book/"{cur("Book")}>Book Free Assessment</a>
+  </nav>
+</div></header>
+{NAV_JS}'''
+
+
+def ld(*objs):
+    return "\n".join(f'<script type="application/ld+json">\n{json.dumps(x, ensure_ascii=False, indent=2)}\n</script>' for x in objs)
+
+
+def crumbs_ld(items):
+    return {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": i, "name": n, "item": SITE + h} for i, (n, h) in enumerate(items, 1)]}
+
+
+def breadcrumb(items):
+    """items: [(name, href or None)] -> visible breadcrumb row (inside a .brand section)."""
+    parts = [f'<a href="{h}">{e(n)}</a>' if h else f'<span>{e(n)}</span>' for n, h in items]
+    return f'<div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb">{" › ".join(parts)}</nav></div>'
+
+
+def cta_band(h="Strong basics today. University-ready tomorrow.", p="Start with a free assessment and foundations check. No obligation."):
+    return f'''<section class="section brand cta"><div class="wrap narrow">
+  <h2>{h}</h2>
+  <p>{p}</p>
+  <div class="btn-row" style="justify-content:center">
+    <a class="btn btn-gold" href="/book/">Book Free Assessment</a>
+    <a class="btn btn-outline" href="https://wa.me/16132976844">Chat on WhatsApp</a>
+  </div>
+</div></section>'''
+
+
 FOOTER = '''<footer class="site-footer">
   <div class="wrap footer-grid">
     <div class="footer-col">
@@ -323,10 +444,10 @@ FOOTER = '''<footer class="site-footer">
       <a class="hl" href="mailto:myqueenscoaching@gmail.com">myqueenscoaching@gmail.com</a>
       <a class="hl" href="tel:+16132976844">+1 613.297.6844</a>
     </div>
-    <div class="footer-col"><strong>Courses</strong><a href="/mth1w-grade-9-math-tutor-ottawa/">MTH1W Grade 9 Math</a><a href="/mpm2d-math-tutor-ottawa/">MPM2D Grade 10 Math</a><a href="/sch3u-chemistry-tutor-ottawa/">SCH3U Chemistry</a><a href="/sch4u-chemistry-tutor-ottawa/">SCH4U Chemistry</a><a href="/sbi4u-biology-tutor-ottawa/">SBI4U Biology</a><a href="/#courses">All courses</a></div>
-    <div class="footer-col"><strong>Exam prep</strong><a href="/#exams">EQAO Grade 9 Math</a><a href="/#exams">SAT &amp; ACT</a><a href="/#exams">AP &amp; IB</a><a href="/#exams">GCSE &amp; A-levels</a><a href="/#exams">CBSE &amp; NEET</a></div>
-    <div class="footer-col"><strong>Areas</strong><a href="/tutor-orleans-ottawa/">Tutor in Orléans</a><a href="/tutor-kanata-ottawa/">Tutor in Kanata</a><a href="/tutor-barrhaven-ottawa/">Tutor in Barrhaven</a><a href="/tutor-nepean-ottawa/">Tutor in Nepean</a><a href="/tutor-stittsville-ottawa/">Tutor in Stittsville</a></div>
-    <div class="footer-col"><strong>Get started</strong><a href="/#book">Book a free assessment</a><a href="https://wa.me/16132976844">WhatsApp us</a><a href="/#faq">FAQ</a><a href="https://g.page/r/CS7iYiJB7OacEBM/review" target="_blank" rel="noopener">Leave a Google review</a></div>
+    <div class="footer-col"><strong>Courses</strong><a href="/mth1w-grade-9-math-tutor-ottawa/">MTH1W Grade 9 Math</a><a href="/mpm2d-math-tutor-ottawa/">MPM2D Grade 10 Math</a><a href="/sch3u-chemistry-tutor-ottawa/">SCH3U Chemistry</a><a href="/sch4u-chemistry-tutor-ottawa/">SCH4U Chemistry</a><a href="/sbi4u-biology-tutor-ottawa/">SBI4U Biology</a><a href="/courses/">All courses</a></div>
+    <div class="footer-col"><strong>Exam prep</strong><a href="/exam-prep/">January &amp; June exams</a><a href="/exam-prep/">EQAO Grade 9 Math</a><a href="/exam-prep/">SAT, ACT &amp; AP</a><a href="/exam-prep/">IB, GCSE &amp; A-levels</a><a href="/guides/">Parent guides</a></div>
+    <div class="footer-col"><strong>Areas</strong><a href="/tutor-orleans-ottawa/">Tutor in Orléans</a><a href="/tutor-kanata-ottawa/">Tutor in Kanata</a><a href="/tutor-barrhaven-ottawa/">Tutor in Barrhaven</a><a href="/tutor-nepean-ottawa/">Tutor in Nepean</a><a href="/tutor-stittsville-ottawa/">Tutor in Stittsville</a><a href="/areas/">All areas</a></div>
+    <div class="footer-col"><strong>Get started</strong><a href="/book/">Book a free assessment</a><a href="https://wa.me/16132976844">WhatsApp us</a><a href="/how-it-works/">How it works</a><a href="/book/#faq">FAQ</a><a href="https://g.page/r/CS7iYiJB7OacEBM/review" target="_blank" rel="noopener">Leave a Google review</a></div>
   </div>
   <div class="wrap footer-legal">
     <p>Disclaimer: Results vary by learner. QueensCoaching is an independent tutoring service and is not affiliated with any school board, university or exam body, including EQAO, College Board, ACT, the International Baccalaureate Organization, Cambridge, CBSE, Qualifications Scotland or the University of Waterloo. Exam names are trademarks of their owners.</p>
@@ -334,6 +455,50 @@ FOOTER = '''<footer class="site-footer">
     <p>© 2026 QueensCoaching</p>
   </div>
 </footer>'''
+
+
+def shell(title, desc, path, body, lds="", active="", robots=""):
+    """Full page wrapper for hub pages and guides: head, GA, menu, footer, WhatsApp button."""
+    url = SITE + path
+    return f'''<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{e(title)}</title>
+<meta name="description" content="{e(desc)}">
+<link rel="canonical" href="{url}">{robots}
+<meta name="theme-color" content="#4B2A7B">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="QueensCoaching">
+<meta property="og:title" content="{e(title)}">
+<meta property="og:description" content="{e(desc)}">
+<meta property="og:url" content="{url}">
+<meta property="og:image" content="{SITE}/og-image.png">
+<meta property="og:locale" content="en_CA">
+<meta name="twitter:card" content="summary_large_image">
+{HEAD_FONTS}
+<link rel="stylesheet" href="/styles.css">
+{lds}
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+{TOPBAR}
+{header(active)}
+
+<main id="main">
+{body}
+</main>
+
+{FOOTER}
+
+<a class="wa-float" href="https://wa.me/16132976844" aria-label="Chat with QueensCoaching on WhatsApp">{WA_ICON}</a>
+</body>
+</html>
+'''
 
 
 def page(c):
@@ -352,7 +517,7 @@ def page(c):
         {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in c["faq"]]}
     crumb_ld = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
-        {"@type": "ListItem", "position": 2, "name": c.get("crumb_name", "Chemistry"), "item": SITE + c.get("crumb_href", "/#chemistry")},
+        {"@type": "ListItem", "position": 2, "name": c.get("crumb_name", "Chemistry"), "item": SITE + c.get("crumb_href", "/chemistry-tutor-ottawa/")},
         {"@type": "ListItem", "position": 3, "name": f"{c['code']} {c['short']}", "item": url}]}
     lds = "\n".join(f'<script type="application/ld+json">\n{json.dumps(x, ensure_ascii=False, indent=2)}\n</script>' for x in (course_ld, faq_ld, crumb_ld))
 
@@ -362,9 +527,15 @@ def page(c):
         for i, (t, d, b) in enumerate(c["units"], 1))
     units += f'<article class="unit card-feature"><p class="num">Plus</p><h3>Exams &amp; lab reports</h3><p>{e(c["plus"])}</p></article>'
     faqs = "".join(f"<details><summary>{e(q)}</summary><p>{e(a)}</p></details>" for q, a in c["faq"])
+    slugs = {x["code"]: f'/{x["slug"]}/' for x in COURSES}
     related = "".join(
-        (f'<a class="pill" href="{h}"><strong>{e(code)}</strong> {e(n)}</a>' if h else f'<span class="pill"><strong>{e(code)}</strong> {e(n)}</span>')
+        (f'<a class="pill" href="{h or slugs[code]}"><strong>{e(code)}</strong> {e(n)}</a>' if (h or code in slugs) else f'<span class="pill"><strong>{e(code)}</strong> {e(n)}</span>')
         for code, n, h in c["related"])
+    guides = ""
+    if c.get("guides"):
+        guides = '<h2 style="margin:28px 0 16px;font-size:20px">Parent guides</h2><div class="pills">' + "".join(
+            f'<a class="pill" href="{h}">{e(t)} →</a>' for t, h in c["guides"]) + '</div>'
+
 
     return f'''<!doctype html>
 <html lang="en-CA">
@@ -392,32 +563,19 @@ def page(c):
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="topbar"><div class="wrap">
-  <span>Grade 9–12 Math &amp; Science · Free assessment · In person in Ottawa · Online worldwide</span>
-  <a href="tel:+16132976844">Call or WhatsApp +1 613.297.6844</a>
-</div></div>
-<header class="site-header"><div class="wrap">
-  <a class="logo" href="/" aria-label="QueensCoaching home">{LOGO}<span><span class="logo-name">QueensCoaching</span><span class="logo-tag">Rule your subject</span></span></a>
-  <nav class="nav" aria-label="Main">
-    <a href="/#courses"{' aria-current="page"' if c.get('nav') == 'Courses' else ''}>Courses</a>
-    <a href="/sch4u-chemistry-tutor-ottawa/"{' aria-current="page"' if c.get('nav', 'Chemistry') == 'Chemistry' else ''}>Chemistry</a>
-    <a href="/#exams">Exam Prep</a>
-    <a href="/#method">How It Works</a>
-    <a href="/#faq">FAQ</a>
-  </nav>
-  <a class="btn btn-gold" href="/#book">Book Free Assessment</a>
-</div></header>
+{TOPBAR}
+{header('Courses')}
 
 <main id="main">
 <section class="brand">
-  <div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="{c.get('crumb_href', '/#chemistry')}">{e(c.get('crumb_name', 'Chemistry'))}</a> › <span>{e(c['code'])} {e(c['short'])}</span></nav></div>
+  <div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="{c.get('crumb_href', '/chemistry-tutor-ottawa/')}">{e(c.get('crumb_name', 'Chemistry'))}</a> › <span>{e(c['code'])} {e(c['short'])}</span></nav></div>
   <div class="wrap hero" style="display:grid;gap:48px;grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));align-items:center;padding-top:40px;padding-bottom:72px">
     <div class="hero-copy">
       <span class="badge badge-solid">{e(c.get('badge', 'Signature program'))}</span>
       <h1 style="margin:0;font-family:var(--serif);font-weight:600;font-size:clamp(34px,4.4vw,54px);letter-spacing:-.02em;line-height:1.08">{e(c['h1'])}</h1>
       <p class="hero-sub">{e(c['intro'])}</p>
       <div class="btn-row">
-        <a class="btn btn-gold" href="/#book">Book a Free {e(c['code'])} Assessment</a>
+        <a class="btn btn-gold" href="/book/">Book a Free {e(c['code'])} Assessment</a>
         <a class="btn btn-outline" href="https://wa.me/16132976844">WhatsApp us</a>
       </div>
     </div>
@@ -459,13 +617,14 @@ def page(c):
 <section style="padding-bottom:80px"><div class="wrap">
   <h2 style="margin:0 0 16px;font-size:20px">Related courses</h2>
   <div class="pills">{related}</div>
+  {guides}
 </div></section>
 
 <section class="section brand cta"><div class="wrap narrow">
   <h2>Ready to master {e(c['code'])}?</h2>
   <p>Book a free assessment with a foundations check. No obligation.</p>
   <div class="btn-row" style="justify-content:center">
-    <a class="btn btn-gold" href="/#book">Book Free Assessment</a>
+    <a class="btn btn-gold" href="/book/">Book Free Assessment</a>
     <a class="btn btn-outline" href="https://wa.me/16132976844">Chat on WhatsApp</a>
   </div>
 </div></section>
