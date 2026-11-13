@@ -113,7 +113,7 @@
       "@type": "ListItem",
       "position": 2,
       "name": "Chemistry",
-      "item": "https://queenscoaching.ca/#chemistry"
+      "item": "https://queenscoaching.ca/chemistry-tutor-ottawa/"
     },
     {
       "@type": "ListItem",
@@ -133,26 +133,36 @@
 </div></div>
 <header class="site-header"><div class="wrap">
   <a class="logo" href="/" aria-label="QueensCoaching home"><svg width="48" height="48" viewBox="0 0 80 80" aria-hidden="true"><path d="M12 30 L17 10 L28 22 L40 4 L52 22 L63 10 L68 30 Z" fill="#D4A73C"/><path d="M6 36 Q22 30 39 37 V74 Q22 67 6 73 Z" fill="#4B2A7B"/><path d="M74 36 Q58 30 41 37 V74 Q58 67 74 73 Z" fill="#6B45A3"/></svg><span><span class="logo-name">QueensCoaching</span><span class="logo-tag">Rule your subject</span></span></a>
-  <nav class="nav" aria-label="Main">
-    <a href="/#courses">Courses</a>
-    <a href="/sch4u-chemistry-tutor-ottawa/" aria-current="page">Chemistry</a>
-    <a href="/#exams">Exam Prep</a>
-    <a href="/#method">How It Works</a>
-    <a href="/#faq">FAQ</a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+  <nav class="nav" id="site-nav" aria-label="Main">
+    <div class="dd"><a class="top" href="/courses/" aria-current="page">Courses</a><button class="dd-toggle" type="button" aria-expanded="false" aria-label="Show Courses menu">▾</button><div class="dd-panel dd-wide"><div><p class="dd-h">Math</p><a href="/mth1w-grade-9-math-tutor-ottawa/">Grade 9 Math<small>MTH1W</small></a><a href="/mpm2d-math-tutor-ottawa/">Grade 10 Math<small>MPM2D</small></a><a href="/mcr3u-functions-tutor-ottawa/">Grade 11 Functions<small>MCR3U</small></a><a href="/mhf4u-advanced-functions-tutor-ottawa/">Advanced Functions<small>MHF4U</small></a><a href="/mcv4u-calculus-vectors-tutor-ottawa/">Calculus &amp; Vectors<small>MCV4U</small></a></div><div><p class="dd-h">Chemistry</p><a href="/sch3u-chemistry-tutor-ottawa/">Grade 11 Chemistry<small>SCH3U</small></a><a href="/sch4u-chemistry-tutor-ottawa/">Grade 12 Chemistry<small>SCH4U</small></a><a href="/sch4c-college-chemistry-tutor-ottawa/">Grade 12 College Chemistry<small>SCH4C</small></a></div><div><p class="dd-h">Biology</p><a href="/sbi3u-biology-tutor-ottawa/">Grade 11 Biology<small>SBI3U</small></a><a href="/sbi4u-biology-tutor-ottawa/">Grade 12 Biology<small>SBI4U</small></a></div><div><p class="dd-h">Physics</p><a href="/sph3u-physics-tutor-ottawa/">Grade 11 Physics<small>SPH3U</small></a><a href="/sph4u-physics-tutor-ottawa/">Grade 12 Physics<small>SPH4U</small></a></div><a class="dd-all" href="/courses/">See all courses →</a></div></div>
+    <a class="top" href="/exam-prep/">Exam Prep</a>
+    <a class="top" href="/how-it-works/">How It Works</a>
+    <div class="dd"><a class="top" href="/areas/">Areas</a><button class="dd-toggle" type="button" aria-expanded="false" aria-label="Show Areas menu">▾</button><div class="dd-panel"><a href="/tutor-kanata-ottawa/">Kanata</a><a href="/tutor-barrhaven-ottawa/">Barrhaven</a><a href="/tutor-orleans-ottawa/">Orléans</a><a href="/tutor-nepean-ottawa/">Nepean</a><a href="/tutor-stittsville-ottawa/">Stittsville</a><a href="/online-chemistry-tutor-ontario/">Online, anywhere</a><a class="dd-all" href="/areas/">All areas →</a></div></div>
+    <div class="dd"><a class="top" href="/guides/">Parent Guides</a><button class="dd-toggle" type="button" aria-expanded="false" aria-label="Show Parent Guides menu">▾</button><div class="dd-panel"><a href="/is-sch3u-hard/">Is SCH3U hard?</a><a href="/sch3u-vs-sch4u/">SCH3U vs SCH4U</a><a href="/is-mhf4u-hard/">Is MHF4U hard?</a><a href="/chemistry-tutor-ottawa/">Chemistry tutor in Ottawa</a><a class="dd-all" href="/guides/">All parent guides →</a></div></div>
+    <a class="top" href="/about-harleen-kaur/">About</a>
+    <a class="btn btn-gold nav-btn" href="/book/">Book Free Assessment</a>
   </nav>
-  <a class="btn btn-gold" href="/#book">Book Free Assessment</a>
 </div></header>
+<script>
+(function(){var h=document.querySelector('.site-header');if(!h)return;var b=h.querySelector('.burger');
+function closeAll(){h.querySelectorAll('.dd.open').forEach(function(x){x.classList.remove('open');x.querySelector('.dd-toggle').setAttribute('aria-expanded','false');});}
+b.addEventListener('click',function(){var o=h.classList.toggle('menu-open');b.setAttribute('aria-expanded',o);b.setAttribute('aria-label',o?'Close menu':'Open menu');});
+h.querySelectorAll('.dd-toggle').forEach(function(t){t.addEventListener('click',function(){var d=t.parentNode,o=!d.classList.contains('open');closeAll();if(o){d.classList.add('open');t.setAttribute('aria-expanded','true');}});});
+document.addEventListener('click',function(ev){if(!h.contains(ev.target))closeAll();});
+document.addEventListener('keydown',function(ev){if(ev.key==='Escape'){h.classList.remove('menu-open');closeAll();}});})();
+</script>
 
 <main id="main">
 <section class="brand">
-  <div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/#chemistry">Chemistry</a> › <span>SCH4U Grade 12 Chemistry</span></nav></div>
+  <div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/chemistry-tutor-ottawa/">Chemistry</a> › <span>SCH4U Grade 12 Chemistry</span></nav></div>
   <div class="wrap hero" style="display:grid;gap:48px;grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));align-items:center;padding-top:40px;padding-bottom:72px">
     <div class="hero-copy">
       <span class="badge badge-solid">Signature program</span>
       <h1 style="margin:0;font-family:var(--serif);font-weight:600;font-size:clamp(34px,4.4vw,54px);letter-spacing:-.02em;line-height:1.08">Grade 12 Chemistry (SCH4U) Tutor in Ottawa &amp; Online</h1>
       <p class="hero-sub">Personalized 1-on-1 SCH4U coaching that closes Grade 11 gaps while covering every unit, from organic chemistry to electrochemistry. Notes and stationery included.</p>
       <div class="btn-row">
-        <a class="btn btn-gold" href="/#book">Book a Free SCH4U Assessment</a>
+        <a class="btn btn-gold" href="/book/">Book a Free SCH4U Assessment</a>
         <a class="btn btn-outline" href="https://wa.me/16132976844">WhatsApp us</a>
       </div>
     </div>
@@ -194,13 +204,14 @@
 <section style="padding-bottom:80px"><div class="wrap">
   <h2 style="margin:0 0 16px;font-size:20px">Related courses</h2>
   <div class="pills"><a class="pill" href="/sch3u-chemistry-tutor-ottawa/"><strong>SCH3U</strong> Grade 11 Chemistry</a><a class="pill" href="/sbi4u-biology-tutor-ottawa/"><strong>SBI4U</strong> Grade 12 Biology</a><a class="pill" href="/mhf4u-advanced-functions-tutor-ottawa/"><strong>MHF4U</strong> Advanced Functions</a><a class="pill" href="/mcv4u-calculus-vectors-tutor-ottawa/"><strong>MCV4U</strong> Calculus &amp; Vectors</a><a class="pill" href="/sph4u-physics-tutor-ottawa/"><strong>SPH4U</strong> Grade 12 Physics</a></div>
+  <h2 style="margin:28px 0 16px;font-size:20px">Parent guides</h2><div class="pills"><a class="pill" href="/sch3u-vs-sch4u/">SCH3U vs SCH4U →</a><a class="pill" href="/chemistry-tutor-ottawa/">Chemistry tutor in Ottawa →</a></div>
 </div></section>
 
 <section class="section brand cta"><div class="wrap narrow">
   <h2>Ready to master SCH4U?</h2>
   <p>Book a free assessment with a foundations check. No obligation.</p>
   <div class="btn-row" style="justify-content:center">
-    <a class="btn btn-gold" href="/#book">Book Free Assessment</a>
+    <a class="btn btn-gold" href="/book/">Book Free Assessment</a>
     <a class="btn btn-outline" href="https://wa.me/16132976844">Chat on WhatsApp</a>
   </div>
 </div></section>
@@ -215,10 +226,10 @@
       <a class="hl" href="mailto:myqueenscoaching@gmail.com">myqueenscoaching@gmail.com</a>
       <a class="hl" href="tel:+16132976844">+1 613.297.6844</a>
     </div>
-    <div class="footer-col"><strong>Courses</strong><a href="/mth1w-grade-9-math-tutor-ottawa/">MTH1W Grade 9 Math</a><a href="/mpm2d-math-tutor-ottawa/">MPM2D Grade 10 Math</a><a href="/sch3u-chemistry-tutor-ottawa/">SCH3U Chemistry</a><a href="/sch4u-chemistry-tutor-ottawa/">SCH4U Chemistry</a><a href="/sbi4u-biology-tutor-ottawa/">SBI4U Biology</a><a href="/#courses">All courses</a></div>
-    <div class="footer-col"><strong>Exam prep</strong><a href="/#exams">EQAO Grade 9 Math</a><a href="/#exams">SAT &amp; ACT</a><a href="/#exams">AP &amp; IB</a><a href="/#exams">GCSE &amp; A-levels</a><a href="/#exams">CBSE &amp; NEET</a></div>
-    <div class="footer-col"><strong>Areas</strong><a href="/tutor-orleans-ottawa/">Tutor in Orléans</a><a href="/tutor-kanata-ottawa/">Tutor in Kanata</a><a href="/tutor-barrhaven-ottawa/">Tutor in Barrhaven</a><a href="/tutor-nepean-ottawa/">Tutor in Nepean</a><a href="/tutor-stittsville-ottawa/">Tutor in Stittsville</a></div>
-    <div class="footer-col"><strong>Get started</strong><a href="/#book">Book a free assessment</a><a href="https://wa.me/16132976844">WhatsApp us</a><a href="/#faq">FAQ</a><a href="https://g.page/r/CS7iYiJB7OacEBM/review" target="_blank" rel="noopener">Leave a Google review</a></div>
+    <div class="footer-col"><strong>Courses</strong><a href="/mth1w-grade-9-math-tutor-ottawa/">MTH1W Grade 9 Math</a><a href="/mpm2d-math-tutor-ottawa/">MPM2D Grade 10 Math</a><a href="/sch3u-chemistry-tutor-ottawa/">SCH3U Chemistry</a><a href="/sch4u-chemistry-tutor-ottawa/">SCH4U Chemistry</a><a href="/sbi4u-biology-tutor-ottawa/">SBI4U Biology</a><a href="/courses/">All courses</a></div>
+    <div class="footer-col"><strong>Exam prep</strong><a href="/exam-prep/">January &amp; June exams</a><a href="/exam-prep/">EQAO Grade 9 Math</a><a href="/exam-prep/">SAT, ACT &amp; AP</a><a href="/exam-prep/">IB, GCSE &amp; A-levels</a><a href="/guides/">Parent guides</a></div>
+    <div class="footer-col"><strong>Areas</strong><a href="/tutor-orleans-ottawa/">Tutor in Orléans</a><a href="/tutor-kanata-ottawa/">Tutor in Kanata</a><a href="/tutor-barrhaven-ottawa/">Tutor in Barrhaven</a><a href="/tutor-nepean-ottawa/">Tutor in Nepean</a><a href="/tutor-stittsville-ottawa/">Tutor in Stittsville</a><a href="/areas/">All areas</a></div>
+    <div class="footer-col"><strong>Get started</strong><a href="/book/">Book a free assessment</a><a href="https://wa.me/16132976844">WhatsApp us</a><a href="/how-it-works/">How it works</a><a href="/book/#faq">FAQ</a><a href="https://g.page/r/CS7iYiJB7OacEBM/review" target="_blank" rel="noopener">Leave a Google review</a></div>
   </div>
   <div class="wrap footer-legal">
     <p>Disclaimer: Results vary by learner. QueensCoaching is an independent tutoring service and is not affiliated with any school board, university or exam body, including EQAO, College Board, ACT, the International Baccalaureate Organization, Cambridge, CBSE, Qualifications Scotland or the University of Waterloo. Exam names are trademarks of their owners.</p>
