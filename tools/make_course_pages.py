@@ -10,8 +10,8 @@ FORM = "https://docs.google.com/forms/d/e/1FAIpQLSfSMPITgPyIUz1aoePzP-xrCxtcTHLr
 COURSES = [
     {
         "slug": "sch4u-chemistry-tutor-ottawa",
-        "guides": [("SCH3U vs SCH4U", "/sch3u-vs-sch4u/"), ("Chemistry tutor in Ottawa", "/chemistry-tutor-ottawa/")],
-        "code": "SCH4U", "short": "Grade 12 Chemistry",
+        "guides": [("SCH3U vs SCH4U", "/sch3u-vs-sch4u/"), ("Chemistry tutor in Ottawa", "/chemistry-tutor-ottawa/"), ("Grade 12 courses for university", "/grade-12-courses-for-university-ontario/")],
+                "code": "SCH4U", "short": "Grade 12 Chemistry",
         "title": "SCH4U Chemistry Tutor in Ottawa & Online | QueensCoaching",
         "desc": "1-on-1 Grade 12 Chemistry (SCH4U) tutoring in Ottawa and online. Every unit from organic chemistry to electrochemistry, with personalized notes and stationery included. Book a free assessment.",
         "h1": "Grade 12 Chemistry (SCH4U) Tutor in Ottawa & Online",
@@ -36,8 +36,8 @@ COURSES = [
     },
     {
         "slug": "sch3u-chemistry-tutor-ottawa",
-        "guides": [("Is SCH3U hard?", "/is-sch3u-hard/"), ("SCH3U vs SCH4U", "/sch3u-vs-sch4u/")],
-        "code": "SCH3U", "short": "Grade 11 Chemistry",
+        "guides": [("Is SCH3U hard?", "/is-sch3u-hard/"), ("SCH3U vs SCH4U", "/sch3u-vs-sch4u/"), ("Chemistry tutor in Ottawa", "/chemistry-tutor-ottawa/")],
+                "code": "SCH3U", "short": "Grade 11 Chemistry",
         "title": "SCH3U Chemistry Tutor in Ottawa & Online | QueensCoaching",
         "desc": "1-on-1 Grade 11 Chemistry (SCH3U) tutoring in Ottawa and online. Master bonding, reactions, the mole, solutions and gases, with personalized notes and stationery included. Book a free assessment.",
         "h1": "Grade 11 Chemistry (SCH3U) Tutor in Ottawa & Online",
@@ -62,6 +62,7 @@ COURSES = [
     },
     {
         "slug": "sbi4u-biology-tutor-ottawa",
+        "guides": [("Grade 12 courses for university", "/grade-12-courses-for-university-ontario/")],
         "code": "SBI4U", "short": "Grade 12 Biology",
         "crumb_name": "Biology", "crumb_href": "/courses/", "nav": "Courses", "badge": "Grade 12 · University",
         "title": "SBI4U Biology Tutor in Ottawa & Online | QueensCoaching",
@@ -88,6 +89,7 @@ COURSES = [
     },
     {
         "slug": "mpm2d-math-tutor-ottawa",
+        "guides": [("Exponent laws explained", "/exponent-laws-guide/"), ("Math tutor in Ottawa", "/math-tutor-ottawa/")],
         "code": "MPM2D", "short": "Grade 10 Math",
         "crumb_name": "Math", "crumb_href": "/courses/", "nav": "Courses", "badge": "Grade 10 · Advanced (academic)",
         "unit_label": "Strand",
@@ -113,6 +115,7 @@ COURSES = [
     },
     {
         "slug": "mth1w-grade-9-math-tutor-ottawa",
+        "guides": [("Exponent laws explained", "/exponent-laws-guide/"), ("Math tutor in Ottawa", "/math-tutor-ottawa/")],
         "code": "MTH1W", "short": "Grade 9 Math",
         "crumb_name": "Math", "crumb_href": "/courses/", "nav": "Courses", "badge": "Grade 9 · EQAO prep included",
         "unit_label": "Strand",
@@ -140,8 +143,8 @@ COURSES = [
     },
     {
         "slug": "mhf4u-advanced-functions-tutor-ottawa",
-        "guides": [("Is MHF4U hard?", "/is-mhf4u-hard/")],
-        "code": "MHF4U", "short": "Advanced Functions",
+        "guides": [("Is MHF4U hard?", "/is-mhf4u-hard/"), ("Is MCV4U hard?", "/is-mcv4u-hard/"), ("Exponent laws explained", "/exponent-laws-guide/"), ("Math tutor in Ottawa", "/math-tutor-ottawa/")],
+                "code": "MHF4U", "short": "Advanced Functions",
         "crumb_name": "Math", "crumb_href": "/courses/", "nav": "Courses", "badge": "Grade 12 · University",
         "unit_label": "Strand",
         "title": "MHF4U Advanced Functions Tutor in Ottawa & Online | QueensCoaching",
@@ -167,6 +170,7 @@ COURSES = [
     },
     {
         "slug": "mcv4u-calculus-vectors-tutor-ottawa",
+        "guides": [("Is MCV4U hard?", "/is-mcv4u-hard/"), ("Is MHF4U hard?", "/is-mhf4u-hard/"), ("Grade 12 courses for university", "/grade-12-courses-for-university-ontario/"), ("Math tutor in Ottawa", "/math-tutor-ottawa/")],
         "code": "MCV4U", "short": "Calculus & Vectors",
         "crumb_name": "Math", "crumb_href": "/courses/", "nav": "Courses", "badge": "Grade 12 · University",
         "unit_label": "Strand",
@@ -192,6 +196,7 @@ COURSES = [
     },
     {
         "slug": "sph4u-physics-tutor-ottawa",
+        "guides": [("Physics tutor in Ottawa", "/physics-tutor-ottawa/"), ("Grade 12 courses for university", "/grade-12-courses-for-university-ontario/")],
         "code": "SPH4U", "short": "Grade 12 Physics",
         "crumb_name": "Physics", "crumb_href": "/courses/", "nav": "Courses", "badge": "Grade 12 · University",
         "title": "SPH4U Physics Tutor in Ottawa & Online | QueensCoaching",
@@ -271,8 +276,8 @@ COURSES = [
     },
     {
         "slug": "mcr3u-functions-tutor-ottawa",
-        "guides": [("Is MHF4U hard?", "/is-mhf4u-hard/")],
-        "code": "MCR3U", "short": "Grade 11 Functions",
+        "guides": [("Is MHF4U hard?", "/is-mhf4u-hard/"), ("Exponent laws explained", "/exponent-laws-guide/"), ("Math tutor in Ottawa", "/math-tutor-ottawa/")],
+                "code": "MCR3U", "short": "Grade 11 Functions",
         "crumb_name": "Math", "crumb_href": "/courses/", "nav": "Courses", "badge": "Grade 11 · University",
         "unit_label": "Strand",
         "title": "MCR3U Grade 11 Functions Tutor in Ottawa & Online | QueensCoaching",
@@ -298,6 +303,7 @@ COURSES = [
     },
     {
         "slug": "sph3u-physics-tutor-ottawa",
+        "guides": [("Physics tutor in Ottawa", "/physics-tutor-ottawa/")],
         "code": "SPH3U", "short": "Grade 11 Physics",
         "crumb_name": "Physics", "crumb_href": "/courses/", "nav": "Courses", "badge": "Grade 11 · University",
         "title": "SPH3U Physics Tutor in Ottawa & Online | QueensCoaching",
@@ -321,6 +327,33 @@ COURSES = [
             ("Can you help with online or summer school SPH3U?", "Yes. We follow the same Ontario curriculum whether your child takes SPH3U in day school, summer school or online."),
         ],
         "related": [("SPH4U", "Grade 12 Physics", "/sph4u-physics-tutor-ottawa/"), ("MCR3U", "Grade 11 Functions", "/mcr3u-functions-tutor-ottawa/"), ("SCH3U", "Grade 11 Chemistry", "/sch3u-chemistry-tutor-ottawa/"), ("SBI3U", "Grade 11 Biology", "/sbi3u-biology-tutor-ottawa/"), ("SNC2D", "Grade 10 Science", None)],
+    },
+    {
+        "slug": "snc2d-grade-10-science-tutor-ottawa",
+        "guides": [("Is SCH3U hard?", "/is-sch3u-hard/"), ("Grade 12 courses for university", "/grade-12-courses-for-university-ontario/")],
+        "code": "SNC2D", "short": "Grade 10 Science",
+        "crumb_name": "Science", "crumb_href": "/courses/", "nav": "Courses", "badge": "Grade 10 · Academic",
+        "unit_label": "Strand",
+        "title": "SNC2D Grade 10 Science Tutor in Ottawa & Online | QueensCoaching",
+        "desc": "1-on-1 Grade 10 Academic Science (SNC2D) tutoring in Ottawa and online. Tissues and systems, chemical reactions, climate change, and light and optics, with personalized notes and stationery included. Book a free assessment.",
+        "h1": "Grade 10 Science (SNC2D) Tutor in Ottawa & Online",
+        "intro": "Personalized 1-on-1 SNC2D coaching for the Grade 10 Academic Science course that leads to Grade 11 Chemistry, Biology and Physics. We fix Grade 9 gaps while covering all four strands. Notes and stationery included.",
+        "facts": [("Course", "Science, Grade 10, Academic"), ("Prerequisite", "Grade 9 Science (SNC1W)"), ("Strands", "Biology, chemistry, earth and space science, physics"), ("Leads to", "SBI3U, SCH3U and SPH3U in Grade 11"), ("Format", "1-on-1, in person in Ottawa or online")],
+        "units": [
+            ("Biology: Tissues, Organs & Systems", "Cell division, cell specialization, and the tissues, organs and systems of plants and animals.", "Grade 8 and 9 cell basics and microscope skills"),
+            ("Chemistry: Chemical Reactions", "Naming compounds, writing and balancing equations, reaction types, and acids and bases.", "Grade 9 atoms, ions and the periodic table"),
+            ("Earth & Space Science: Climate Change", "The greenhouse effect, what affects climate, and reading climate evidence and data.", "reading graphs and data tables"),
+            ("Physics: Light & Geometric Optics", "Reflection, refraction, mirrors, lenses, ray diagrams and the lens and magnification equations.", "rearranging formulas, ratios and measuring angles"),
+        ],
+        "plus": "Unit test and final exam prep, lab report writing, and a head start on Grade 11 Chemistry, Biology and Physics.",
+        "gap_line": "SNC2D is the first science course with real equations to balance and formulas to rearrange. Most struggles trace back to Grade 9 atoms and ions or to basic algebra, so we check those in the free assessment and fix them as we go.",
+        "faq": [
+            ("Is SNC2D hard?", "It is a step up from Grade 9 because of the chemistry and optics units, which use naming rules, balancing and formulas. Students with solid Grade 9 basics and regular practice usually do well."),
+            ("Why does SNC2D matter?", "SNC2D is the usual prerequisite for Grade 11 University Biology (SBI3U), Chemistry (SCH3U) and Physics (SPH3U), which lead to the Grade 12 sciences many university programs require."),
+            ("What is the difference between SNC2D and SNC2P?", "SNC2D is the academic Grade 10 Science course and leads to the Grade 11 university sciences. SNC2P is the applied course with more hands-on work. We tutor both."),
+            ("When should we start tutoring?", "At the start of the semester, or before the Chemical Reactions unit, where naming and balancing equations first appear."),
+        ],
+        "related": [("SNC1W", "Grade 9 Science", None), ("SCH3U", "Grade 11 Chemistry", "/sch3u-chemistry-tutor-ottawa/"), ("SBI3U", "Grade 11 Biology", "/sbi3u-biology-tutor-ottawa/"), ("SPH3U", "Grade 11 Physics", "/sph3u-physics-tutor-ottawa/"), ("MPM2D", "Grade 10 Math", "/mpm2d-math-tutor-ottawa/")],
     },
 ]
 
@@ -355,11 +388,12 @@ NAV_COURSES = [
                    ("Grade 12 College Chemistry", "SCH4C", "/sch4c-college-chemistry-tutor-ottawa/")]),
     ("Biology", [("Grade 11 Biology", "SBI3U", "/sbi3u-biology-tutor-ottawa/"), ("Grade 12 Biology", "SBI4U", "/sbi4u-biology-tutor-ottawa/")]),
     ("Physics", [("Grade 11 Physics", "SPH3U", "/sph3u-physics-tutor-ottawa/"), ("Grade 12 Physics", "SPH4U", "/sph4u-physics-tutor-ottawa/")]),
+    ("Science", [("Grade 10 Science", "SNC2D", "/snc2d-grade-10-science-tutor-ottawa/")]),
 ]
 NAV_AREAS = [("Kanata", "/tutor-kanata-ottawa/"), ("Barrhaven", "/tutor-barrhaven-ottawa/"), ("Orléans", "/tutor-orleans-ottawa/"),
              ("Nepean", "/tutor-nepean-ottawa/"), ("Stittsville", "/tutor-stittsville-ottawa/"), ("Online, anywhere", "/online-chemistry-tutor-ontario/")]
-NAV_GUIDES = [("Is SCH3U hard?", "/is-sch3u-hard/"), ("SCH3U vs SCH4U", "/sch3u-vs-sch4u/"), ("Is MHF4U hard?", "/is-mhf4u-hard/"),
-              ("Chemistry tutor in Ottawa", "/chemistry-tutor-ottawa/")]
+NAV_GUIDES = [("Is SCH3U hard?", "/is-sch3u-hard/"), ("Is MHF4U hard?", "/is-mhf4u-hard/"), ("Is MCV4U hard?", "/is-mcv4u-hard/"),
+              ("Exponent laws explained", "/exponent-laws-guide/"), ("Grade 12 courses for university", "/grade-12-courses-for-university-ontario/")]
 
 TOPBAR = (
     '<div class="topbar"><div class="wrap">\n'
@@ -444,7 +478,7 @@ FOOTER = '''<footer class="site-footer">
       <a class="hl" href="mailto:myqueenscoaching@gmail.com">myqueenscoaching@gmail.com</a>
       <a class="hl" href="tel:+16132976844">+1 613.297.6844</a>
     </div>
-    <div class="footer-col"><strong>Courses</strong><a href="/mth1w-grade-9-math-tutor-ottawa/">MTH1W Grade 9 Math</a><a href="/mpm2d-math-tutor-ottawa/">MPM2D Grade 10 Math</a><a href="/sch3u-chemistry-tutor-ottawa/">SCH3U Chemistry</a><a href="/sch4u-chemistry-tutor-ottawa/">SCH4U Chemistry</a><a href="/sbi4u-biology-tutor-ottawa/">SBI4U Biology</a><a href="/courses/">All courses</a></div>
+    <div class="footer-col"><strong>Courses</strong><a href="/math-tutor-ottawa/">Math tutor in Ottawa</a><a href="/chemistry-tutor-ottawa/">Chemistry tutor in Ottawa</a><a href="/physics-tutor-ottawa/">Physics tutor in Ottawa</a><a href="/sch4u-chemistry-tutor-ottawa/">SCH4U Chemistry</a><a href="/sbi4u-biology-tutor-ottawa/">SBI4U Biology</a><a href="/courses/">All courses</a></div>
     <div class="footer-col"><strong>Exam prep</strong><a href="/exam-prep/">January &amp; June exams</a><a href="/exam-prep/">EQAO Grade 9 Math</a><a href="/exam-prep/">SAT, ACT &amp; AP</a><a href="/exam-prep/">IB, GCSE &amp; A-levels</a><a href="/guides/">Parent guides</a></div>
     <div class="footer-col"><strong>Areas</strong><a href="/tutor-orleans-ottawa/">Tutor in Orléans</a><a href="/tutor-kanata-ottawa/">Tutor in Kanata</a><a href="/tutor-barrhaven-ottawa/">Tutor in Barrhaven</a><a href="/tutor-nepean-ottawa/">Tutor in Nepean</a><a href="/tutor-stittsville-ottawa/">Tutor in Stittsville</a><a href="/areas/">All areas</a></div>
     <div class="footer-col"><strong>Get started</strong><a href="/book/">Book a free assessment</a><a href="https://wa.me/16132976844">WhatsApp us</a><a href="/how-it-works/">How it works</a><a href="/book/#faq">FAQ</a><a href="https://g.page/r/CS7iYiJB7OacEBM/review" target="_blank" rel="noopener">Leave a Google review</a></div>

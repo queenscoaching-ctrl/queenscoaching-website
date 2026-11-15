@@ -47,7 +47,7 @@ SUBJECT_CARDS = f'''<div class="grid">
       <span class="tag">Grade 9–12</span>
       <h3 class="course-title">Math</h3>
       <ul class="codes"><li><a href="/mth1w-grade-9-math-tutor-ottawa/"><strong>MTH1W</strong> · Grade 9 Math</a></li><li><a href="/mpm2d-math-tutor-ottawa/"><strong>MPM2D</strong> · Grade 10 Math</a></li><li><a href="/mhf4u-advanced-functions-tutor-ottawa/"><strong>MHF4U</strong> · Advanced Functions</a></li><li><a href="/mcv4u-calculus-vectors-tutor-ottawa/"><strong>MCV4U</strong> · Calculus &amp; Vectors</a></li></ul>
-      <a class="card-link" href="/courses/#math">All Math courses →</a>
+      <a class="card-link" href="/math-tutor-ottawa/">See Math tutoring in Ottawa →</a>
     </article>
     <article class="card card-feature">
       <span class="tag tag-gold">Signature · Grade 11–12</span>
@@ -65,7 +65,7 @@ SUBJECT_CARDS = f'''<div class="grid">
       <span class="tag">Grade 11–12</span>
       <h3 class="course-title">Physics</h3>
       <ul class="codes"><li><a href="/sph3u-physics-tutor-ottawa/"><strong>SPH3U</strong> · Grade 11 Physics</a></li><li><a href="/sph4u-physics-tutor-ottawa/"><strong>SPH4U</strong> · Grade 12 Physics</a></li><li>Engineering prep</li></ul>
-      <a class="card-link" href="/courses/#physics">All Physics courses →</a>
+      <a class="card-link" href="/physics-tutor-ottawa/">See Physics tutoring in Ottawa →</a>
     </article>
   </div>'''
 
@@ -205,7 +205,7 @@ GROUPS = [
     ("chemistry", "Chemistry", "Signature program", ["SCH3U", "SCH4U", "SCH4C"], []),
     ("biology", "Biology", "Grade 11–12", ["SBI3U", "SBI4U"], [("SBI3C", "Grade 11 College Biology")]),
     ("physics", "Physics", "Grade 11–12", ["SPH3U", "SPH4U"], [("SPH4C", "Grade 12 College Physics")]),
-    ("science", "Grade 9–10 Science", "Foundations", [], [("SNC1W", "Grade 9 Science"), ("SNC2D", "Grade 10 Science"), ("SNC2P", "Grade 10 Science (applied)")]),
+    ("science", "Grade 9–10 Science", "Foundations", ["SNC2D"], [("SNC1W", "Grade 9 Science"), ("SNC2P", "Grade 10 Science (applied)")]),
 ]
 
 
@@ -242,7 +242,7 @@ def courses():
   <p style="margin:0 0 12px;font-weight:700">Science</p>
   <div class="ladder">
     <div class="rung"><strong>SNC1W</strong><span>Grade 9 Science</span></div><span class="arrow" aria-hidden="true">→</span>
-    <div class="rung"><strong>SNC2D</strong><span>Grade 10 Science</span></div><span class="arrow" aria-hidden="true">→</span>
+    <a class="rung" style="text-decoration:none" href="/snc2d-grade-10-science-tutor-ottawa/"><strong>SNC2D</strong><span>Grade 10 Science</span></a><span class="arrow" aria-hidden="true">→</span>
     <a class="rung" style="text-decoration:none" href="/sch3u-chemistry-tutor-ottawa/"><strong>SCH3U</strong><span>Grade 11 Chemistry</span></a><span class="arrow" aria-hidden="true">→</span>
     <a class="rung rung-top" style="text-decoration:none" href="/sch4u-chemistry-tutor-ottawa/"><strong>SCH4U</strong><span>Grade 12 Chemistry</span></a>
   </div>
@@ -254,7 +254,7 @@ def courses():
         '<section style="padding:32px 0 64px"><div class="wrap"><p style="margin:0;color:var(--muted)"><strong style="color:var(--ink)">Also offered:</strong> Grade 1–8 tutoring · IELTS &amp; CELPIP coaching for adults</p></div></section>' + cta_band()
     items = [{"@type": "ListItem", "position": i, "url": f'{SITE}/{c["slug"]}/', "name": f'{c["code"]} {c["short"]}'} for i, c in enumerate(COURSES, 1)]
     return shell("Grade 9–12 Math & Science Courses | Tutoring in Ottawa & Online | QueensCoaching",
-                 "Every Ontario Grade 9–12 Math and Science course we coach 1-on-1 in Ottawa and online: MTH1W to MCV4U, SCH3U, SCH4U, SBI3U, SBI4U, SPH3U and SPH4U. Book a free assessment.",
+                 "Every Ontario Grade 9–12 Math and Science course we coach 1-on-1 in Ottawa and online: MTH1W to MCV4U, SNC2D, SCH3U, SCH4U, SBI3U, SBI4U, SPH3U and SPH4U. Book a free assessment.",
                  "/courses/", body, ld({"@context": "https://schema.org", "@type": "ItemList", "itemListElement": items},
                                        crumbs_ld([("Home", "/"), ("Courses", "/courses/")])), active="Courses")
 
